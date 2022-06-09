@@ -1,13 +1,8 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
-  <ItemGroup>
-    <ProjectReference Include="..\R5T.Z0008\R5T.Z0008.csproj" />
-  </ItemGroup>
-
   <PropertyGroup>
     <OutputType>Exe</OutputType>
     <TargetFramework>net5.0</TargetFramework>
-    <NoWarn>1573;1587;1591</NoWarn>
   </PropertyGroup>
 
 </Project>
