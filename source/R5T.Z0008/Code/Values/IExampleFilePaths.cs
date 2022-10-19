@@ -76,5 +76,16 @@ namespace R5T.Z0008
                 return output;
             }
         }
+
+        public string ExampleOldStyle
+        {
+            get
+            {
+                var executableDirectoryPath = this.GetExecutableDirectoryPath;
+
+                var output = executableDirectoryPath + @"\Files\ExampleOldStyle.csproj";
+                return output;
+            }
+        }
     }
 }
