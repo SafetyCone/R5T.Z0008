@@ -1,7 +1,4 @@
 using System;
-using System.IO;
-
-using R5T.Magyar;
 
 using R5T.T0131;
 
@@ -11,81 +8,12 @@ namespace R5T.Z0008
 	[ValuesMarker]
 	public partial interface IExampleFilePaths : IValuesMarker
 	{
-        public string ExampleConsole
-        {
-            get
-            {
-                var executableDirectoryPath = this.GetExecutableDirectoryPath;
-
-                var output = executableDirectoryPath + @"\Files\ExampleConsole.csproj";
-                return output;
-            }
-        }
-
-        public string ExampleConsole_WithF0020ProjectReference
-        {
-            get
-            {
-                var executableDirectoryPath = this.GetExecutableDirectoryPath;
-
-                var output = executableDirectoryPath + @"\Files\ExampleConsole-With Z0008.csproj";
-                return output;
-            }
-        }
-
-        public string ExampleLibrary
-        {
-            get
-            {
-                var executableDirectoryPath = this.GetExecutableDirectoryPath;
-
-                var output = executableDirectoryPath + @"\Files\ExampleLibrary.csproj";
-                return output;
-            }
-        }
-
-        public string ExampleSolution
-        {
-            get
-            {
-                var executableDirectoryPath = this.GetExecutableDirectoryPath;
-
-                var output = executableDirectoryPath + @"\Files\ExampleSolution.sln";
-                return output;
-            }
-        }
-
-        public string ExampleTest
-        {
-            get
-            {
-                var executableDirectoryPath = this.GetExecutableDirectoryPath;
-
-                var output = executableDirectoryPath + @"\Files\ExampleTest.csproj";
-                return output;
-            }
-        }
-
-        public string GetExecutableDirectoryPath
-        {
-            get
-            {
-                var executableFilePath = ExecutableFilePathHelper.GetExecutableFilePath();
-
-                var output = new FileInfo(executableFilePath).DirectoryName;
-                return output;
-            }
-        }
-
-        public string ExampleOldStyle
-        {
-            get
-            {
-                var executableDirectoryPath = this.GetExecutableDirectoryPath;
-
-                var output = executableDirectoryPath + @"\Files\ExampleOldStyle.csproj";
-                return output;
-            }
-        }
+        public string ExampleConsoleProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleConsole.csproj");
+        public string ExampleConsoleProject_WithZ0008ProjectReference => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleConsole-With Z0008.csproj");
+        public string ExampleLibraryProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleLibrary.csproj");
+        public string ExampleOldStyleConsoleProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleOldStyle.csproj");
+        public string ExampleSolution => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleSolution.sln");
+        public string ExampleTestProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleTest.csproj");
+        public string ExampleWithCOMReferenceProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleCOMReference.csproj");
     }
 }

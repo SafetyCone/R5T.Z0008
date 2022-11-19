@@ -7,7 +7,7 @@ namespace R5T.Z0008
 	{
 		#region Infrastructure
 
-	    public static ExampleFilePaths Instance { get; } = new();
+	    public static IExampleFilePaths Instance { get; } = new ExampleFilePaths();
 
 	    private ExampleFilePaths()
 	    {
