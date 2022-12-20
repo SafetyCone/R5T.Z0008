@@ -5,25 +5,31 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="Files\ExampleCOMReference.csproj">
+    <None Include="Files\R5T.Z0008\Example-Empty NestedProjects GlobalSection.sln">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\ExampleConsole.csproj">
+    <None Include="Files\R5T.Z0008\Example-SolutionItems Project.sln">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\ExampleConsole-With Z0008.csproj">
+    <None Include="Files\R5T.Z0008\ExampleCOMReference.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\ExampleLibrary.csproj">
+    <None Include="Files\R5T.Z0008\ExampleConsole.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\ExampleOldStyle.csproj">
+    <None Include="Files\R5T.Z0008\ExampleConsole-With Z0008.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\ExampleSolution.sln">
+    <None Include="Files\R5T.Z0008\ExampleLibrary.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-    <None Include="Files\ExampleTest.csproj">
+    <None Include="Files\R5T.Z0008\ExampleOldStyle.csproj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\R5T.Z0008\ExampleSolution.sln">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Files\R5T.Z0008\ExampleTest.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
   </ItemGroup>
