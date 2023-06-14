@@ -14,5 +14,6 @@ namespace R5T.Z0008
 		public string Test => ExampleFilePaths.Instance.ExampleTestProject;
 		public string WithCOMReference => ExampleFilePaths.Instance.ExampleWithCOMReferenceProject;
 		public string WithoutCOMReference => this.Console;
+		public string With_PackageReference => ExampleFilePaths.Instance.ExampleTestProject;
 	}
 }

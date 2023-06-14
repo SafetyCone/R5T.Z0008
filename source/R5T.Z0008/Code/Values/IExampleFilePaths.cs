@@ -13,6 +13,9 @@ namespace R5T.Z0008
         public string ExampleLibraryProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleLibrary.csproj");
         public string ExampleOldStyleConsoleProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleOldStyle.csproj");
         public string ExampleSolution => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleSolution.sln");
+        /// <summary>
+        /// Contains two package references.
+        /// </summary>
         public string ExampleTestProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleTest.csproj");
         public string ExampleWithCOMReferenceProject => FilePathOperator.Instance.GetFilesDirectoryFilePath("ExampleCOMReference.csproj");
     }
