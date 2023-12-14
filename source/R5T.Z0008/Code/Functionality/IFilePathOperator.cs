@@ -14,7 +14,7 @@ namespace R5T.Z0008
 		/// </summary>
 		public string GetFilesDirectoryFilePath(string fileName)
         {
-			var executableDirectoryPath = ExecutablePathOperator.Instance.GetExecutableDirectoryPath();
+			var executableDirectoryPath = ExecutablePathOperator.Instance.Get_ExecutableDirectoryPath();
 
 			var fileExecutableDirectoryRelativeFilePath = $@"\Files\R5T.Z0008\{fileName}";
 

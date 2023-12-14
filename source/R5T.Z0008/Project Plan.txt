@@ -1,3 +1,8 @@
 R5T.Z0008 - Example solution files and project files.
 
 GOALS:
+
+
+Notes:
+
+C:\Users\David\source\repos\ - Default location of Visual Studio output files.

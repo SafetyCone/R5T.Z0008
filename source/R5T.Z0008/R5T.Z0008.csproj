@@ -14,6 +14,9 @@
     <None Include="Files\R5T.Z0008\ExampleCOMReference.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
+    <None Include="Files\R5T.Z0008\ExampleConsole-NET8.csproj">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
     <None Include="Files\R5T.Z0008\ExampleConsole.csproj">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
